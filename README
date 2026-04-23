@@ -1,0 +1,55 @@
+# ⚡ AI-Bilirkişi – Kaçak Elektrik Davalarında Uzman Mütalaası Asistanı
+
+**AI-Bilirkişi**, kaçak elektrik davalarında bilirkişilere, avukatlara ve enerji hukuku uzmanlarına yardımcı olmak için geliştirilmiş **interaktif bir web aracıdır**. EPK 6446 (Elektrik Piyasası Kanunu) ile TCK 141/142, 163, 203 maddelerini ve Yargıtay’ın yerleşik içtihatlarını bir araya getirir; kullanıcıyı adım adım doğru hukuki nitelendirmeye götürür.
+
+🔗 **Canlı Demo:** [kullaniciadiniz.github.io/ai-bilirkişi](https://kullaniciadiniz.github.io/ai-bilirkişi)
+
+---
+
+## ✨ Öne Çıkan Özellikler
+
+- ⚖️ **Suç Vasfı Analizörü** – Abone durumu ve sayaç müdahalesi sorularına verilen yanıtlarla TCK maddesini önerir.
+- 📚 **Yasal Çerçeve & İçtihatlar** – EPK 6446 ve TCK maddelerinin özetleri, Yargıtay karar yönelimleri tek tıkla erişilebilir.
+- 📊 **Karşılaştırmalı Radar Grafiği** – Kanun maddelerinin odaklandığı hukuki kavramları görselleştirir.
+- 🎯 **Bağımsız Bilirkişi Notu** – “Suçludur” gibi kesin ifadelerden kaçınılması gerektiğini hatırlatan P3 protokolü vurgusu.
+
+## 🛡️ Yapay Zeka Protokolleri (P1 – P3)
+
+| Protokol | Açıklama |
+|----------|----------|
+| **P1 – KVKK Uyumu** | Kişisel veri (TC kimlik, isim, adres vb.) tespitinde anonimleştirme uyarısı yapar. |
+| **P2 – Hallüsinasyon Engelleme** | Kaynaksız mevzuat/içtihat üretmez; her çıktısında resmî kaynaklardan (mevzuat.gov.tr, Yargıtay Karar Arama) teyit edilmesi gerektiğini hatırlatır. |
+| **P3 – Uzman Üslubu** | “Suçludur” yerine “veriler… ihtimalini kuvvetle desteklemektedir” gibi olasılık ve kanıta dayalı dil kullanır. |
+
+## 🧪 Nasıl Kullanılır?
+
+1. **Suç Vasfı Analizörü** ile başlayın: abone sözleşmesi var mı? sayaç müdahalesi var mı?  
+2. Her adımdaki soruyu yanıtlayın – sistem size olası TCK maddesini gösterecektir.  
+3. **Yasal Çerçeve** sekmesinden EPK 6446 ve TCK maddelerinin özetlerini okuyun.  
+4. **Yargıtay İçtihatları** sekmesinden daire görüşlerini ve emsal kararları inceleyin.  
+5. Raporunuzu hazırlarken **Bilirkişi Değerlendirme Notu**’ndaki uyarılara mutlaka uyun.
+
+## 📁 Dosya Yapısı
+
+- `index.html` – Ana uygulama dosyası (Tailwind CSS, Chart.js, Font Awesome içerir).  
+- Tüm kod tek dosyadadır; externals yalnızca CDN’lerdir.  
+- Bağımsız çalışır, internet sadece kütüphaneleri yüklemek için gereklidir.
+
+## 🔗 Faydalı Kaynaklar
+
+- [Elektrik Piyasası Kanunu (6446)](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6446)  
+- [Türk Ceza Kanunu (5237)](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237)  
+- [Yargıtay Karar Arama](https://karararama.yargitay.gov.tr/)
+
+## 👨‍⚖️ Sorumluluk Reddi (Disclaimer)
+
+Bu araç, yapay zeka destekli bir **yardımcıdır**. Nihai hukuki mütalaa veya mahkeme bilirkişi raporu yerine geçmez. Tüm bulgular ve öneriler, kullanıcı tarafından resmî kaynaklardan doğrulanmalıdır. Bilirkişinin mesleki sorumluluğu esastır.
+
+## 📄 Lisans
+
+Bu proje **MIT Lisansı** ile sunulmaktadır. Ticari veya eğitsel amaçlarla özgürce kullanılabilir, dağıtılabilir.
+
+---
+
+**Hazırlayan:** AI-Bilirkişi İş Akışı (Uzman Mütalaası) – v1.4  
+📧 İletişim: [LinkedIn Bülteni](https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7452784959968190464)
